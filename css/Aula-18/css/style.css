@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#links-right {
+    float: right;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#links-right a:hover span {
+    border-bottom: 3px solid #333;
+}
+
+#main-header {
+    border-bottom: 1px solid #333;
+}
+.post {
+    margin: 15px;
+}
+.post img {
+    border-radius: 10px;
+}
