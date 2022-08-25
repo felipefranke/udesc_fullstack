@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 21</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        .container {
+            width: 100%;
+            padding: 0 15px;
+            margin: 0 auto;
+        }
+        img { width: 100%; }
+        body {
+            background-color: yellow;
+        }
+        
+        .breakpoints::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        @media screen and (min-width: 768px) {
+            body {
+                background-color: green;
+            }
+            .container {width: 720px;}
+            .breakpoint-img {
+                float: left;
+                width: 33.33%;
+            }
+        }
+        @media screen and (min-width: 1200px) {
+            body {
+                background-color: rebeccapurple;
+            }
+            .container {width: 1140px;}
+            .breakpoint-img {
+                float: left;
+                width: 25%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Design Responsivo</h1>
+        <p>
+            Design Responsivo é uma técnica de estruturação HTML e CSS, que consiste em adaptar o 
+            site ao browser do usuário, ou seja, é um tipo de design onde o layout fica fluído e 
+            variante de acordo com a resolução do usuário.
+        </p>
+        <p>
+            Esse tipo de design responsivo teve origem em 2010 com o objetivo de melhorar a 
+            experiência de navegação dos usuários de páginas web. 
+        </p>
+        <h2>Breakpoints (Bootstrap)</h2>
+        <div class="breakpoints">
+            <div class="breakpoint-img">
+                <figure>
+                    <img src="img/bootstrap-breakpoints-1.png" alt="Breakpoints 1">
+                </figure>
+            </div>
+            <div class="breakpoint-img">
+                <figure>
+                    <img src="img/bootstrap-breakpoints-2.png" alt="Breakpoints 2">
+                </figure>
+            </div>
+            <div class="breakpoint-img">
+                <figure>
+                    <img src="img/bootstrap-breakpoints-3.png" alt="Breakpoints 3">
+                </figure>
+            </div>
+            <div class="breakpoint-img">
+                <figure>
+                    <img src="img/bootstrap-breakpoints-4.png" alt="Breakpoints 4">
+                </figure>
+            </div>
+            <div class="breakpoint-img">
+                <figure>
+                    <img src="img/bootstrap-breakpoints-5.png" alt="Breakpoints 5">
+                </figure>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
