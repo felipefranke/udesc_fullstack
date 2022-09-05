@@ -1,0 +1,142 @@
+@charset "UTF-*";
+
+
+body {
+    background-color: #f1f1f1;
+}
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.247);
+    display: flex;
+}
+.container {
+    padding: 10px 25px 40px 25px;
+    margin-bottom: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#main-header {
+    background-color: #051644;
+    height: 80px;
+    width: 100%;
+}
+#main-header img {
+    height: 60px;
+}
+#header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 10%;
+}
+#links-right ul {
+    overflow: hidden;
+}
+#links-right ul li {
+    display: inline block;
+    text-align: center;
+    padding: 20px 15px 0 0;
+    font-size: 13px;
+    color: white;
+    float: right;
+}
+#links-right i {
+    padding-right: 10px;
+}
+.article-product {
+    padding: 25px;
+}
+.article-product h1 {
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+.article-header {
+    font-weight: bolder;
+    font-size: 1.1em;
+    margin: 20px 0;
+}
+.article-header-subtitle {
+    font-size: 12px;
+    color: #777;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.product-price {
+    background-color: #051644;
+    height: 65px;
+    padding: 15px 10px;
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.seller {
+    background-color: #eee;
+    margin-left: 10px;
+    text-align: center;
+    padding: 15px 0
+}
+.seller-name {
+    font-weight: bolder;
+    font-size: 13px;
+}
+.seller-contact {
+    font-size: 13px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+.bt-primary {
+    background-color: #FFA500;
+    text-align: center;
+    font-size: 13px;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.bt-primary i {
+    padding-right: 10px;
+}
+footer {
+    max-width: 1200px;
+    margin: 40px auto 45px auto;
+    border-top: 1px solid #ccc;
+    /* display: flex;
+    justify-content: space-between; */
+    padding-top: 15px;
+}
+/* footer nav ul li {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    font-size: 13px;
+} */
+
+/* teste */
+
+.product-list-item{
+    padding: 10px 3px;
+}
+.category-item{
+    padding: 10px 3px;
+}
+h3 {
+    font-size: 1em;
+    font-weight: 400;
+}
+.product-list-price {
+    font-weight: bold;
+}
+figcaption {
+    position: absolute;
+    color: white;
+    margin: -30px 0px 0 15px;
+}
+#social-medias {
+    float: right;
+}
+#footer-links {
+    font-size: 14px;
+}
